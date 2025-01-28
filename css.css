@@ -70,6 +70,39 @@ body {
     font-size:medium;
     color: #F4F4F4;
 }
+.searchbox{align-content: center;
+opacity: 30%;}
+.search{
+    
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    height: 30px;
+    padding: 1% ;
+    display: flex;
+}
+
+.search input{
+    border:none;
+    background: transparent;
+
+}
+.search input::placeholder{
+    color :#000000;
+}
+.search input[type="text"]{
+    color: #000000;
+}
+.search button{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/009/652/218/small/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    padding:0%;
+    width: 30px;
+    height: 30px;
+}
 
 .head {
     height:100svh;
@@ -84,7 +117,7 @@ body {
 .headglass{
     width : 100%;
     height : 100%;
-    background-color: rgba(56, 56, 56, 0.74);
+    background-color: rgba(56, 56, 56, 0.719);
     align-content: center;
     text-align: center;
 }
@@ -150,6 +183,7 @@ body {
 
     justify-content: space-around;
     display: flex;
+    flex-wrap:wrap ;
 }
 
 .book {
@@ -267,17 +301,23 @@ body {
   margin-bottom: 10px;
 }
 
-.review {
+.foot-review {
     background:url(https://t4.ftcdn.net/jpg/08/99/11/99/360_F_899119965_ZXCGB5xmBP2HGke415tF2gr67iXYlBRg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    width: 104%;
+    margin: 0% -0.5%;
+}
+
+.review{
     padding : 9svh;
     display: flex;
 }
 
 .reviewform {
     width: 40%;
+    height : 60svh;
     background-color: #35353580;
     border-radius: 10px;
     justify-items: center;
@@ -328,5 +368,71 @@ input::placeholder{
     transition: 400ms;
     color: whitesmoke;
     font-family: "Almendra", serif;
-   
 }
+
+.submit:hover{
+    box-shadow: #ffffff57 0px 0px 10px;
+    background-color: #9b9a9aea;
+    color: #000000;
+}
+.normal-reviews{
+    padding: 7svh;
+
+}
+.part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.normal-1-review{
+    max-width: 30svh;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3a405080;
+    border-radius: 10px;
+}
+
+.normal-1-review b{
+    color: #ffffff;
+    font-size: larger;
+}
+
+.normal-1-review p{
+    color: whitesmoke;
+    font-size: medium;
+}
+
+.normal-1-review span{
+    color: #ffffff;
+    font-size: smaller;
+}
+
+footer {
+    background-color: #000000a1;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+  }
+  .footer p{
+    margin:10px
+  }
+  
+  .social-icon {
+    margin:  10px;
+  }
+  
+  .social-icon img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .back-to-top {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
