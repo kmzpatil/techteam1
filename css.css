@@ -1,0 +1,332 @@
+body {
+    font-family: "Almendra", serif;
+    background-color:#000000;
+}
+
+
+
+.navbar {
+    background-color: #333333;
+    background: linear-gradient(to right,#3333336c,#0050706c,#3333336c);
+    position: fixed;
+    display : flex;
+    justify-content : space-around;
+    margin-left: -0.7%;
+    top : 0px;
+    width: 102%;
+    box-shadow: #F4F4F4 5px 0px 3px;    
+}
+
+
+.links {
+    display : flex;
+    width: 40%;
+    justify-content : space-around;
+}
+
+
+.nav-a{
+    color : #FFC107;
+    text-decoration: none;
+    align-content: center;
+    text-align: center;
+    font-size: large;
+    width: 100px;
+    transition: 500ms;
+   
+}
+
+.nav-a:hover {
+    color: red;
+    text-shadow: red 0 0 10px;
+    text-decoration:underline;
+}
+
+.logo {
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.logo a{
+    letter-spacing: 2px;
+    color: #FFC107;
+    text-decoration:double;
+    font-size:35px;
+    text-shadow: #FFC107 0px 0px 10px;
+}
+
+.logo div{
+    height: 60px;
+    width: 100%;
+    padding-right: 5%;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.logo p{
+    font-size:medium;
+    color: #F4F4F4;
+}
+
+.head {
+    height:100svh;
+    width: 105%;
+    margin : -0.7%;
+    background-image: url(https://media.rainpos.com/11393/30449_Gdarksagestackedbooktoss.jpg);
+    background-attachment: fixed;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.headglass{
+    width : 100%;
+    height : 100%;
+    background-color: rgba(56, 56, 56, 0.74);
+    align-content: center;
+    text-align: center;
+}
+
+.headglass h1{
+    color : #F4F4F4;
+    font-size: 60px;
+    text-shadow: #F4F4F4 0px 0px 10px;
+    margin: 5svh;
+}
+
+.headglass button{
+    box-shadow: #f4f4f41e 0px 0px 10px;
+    background: transparent;
+    font-size: 30px;
+    padding: 20px 40px;
+    transition: 400ms;
+    color: #F4F4F4;
+    font-family: "Almendra", serif;
+}
+
+.headglass button:hover{
+    box-shadow: #f4f4f457 0px px 10px;
+    background-color: #afaeae48;
+    color: #000000;
+}
+
+.hr1 {
+    width: 150%;
+    height: 5px;
+    margin-left: -10% ;
+    background-color: #000000;
+    border-bottom: #000000;
+}
+
+.next {
+    width:105svw;
+    margin-left: -2%;
+    background: url(22.avif);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: center;
+    min-height : 95svh;
+    padding-top : 5svh;
+    justify-items: center;
+
+}
+
+.next h2{
+    color : #F4F4F4;
+    font-size: 45px;
+    text-shadow: #F4F4F4 0px 0px 10px;
+}
+
+.featured{
+    justify-items: center;
+    background-color: #484f6375;
+    padding: 0svh 8svh;
+    border-radius: 50px;
+}
+
+.books {
+
+    justify-content: space-around;
+    display: flex;
+}
+
+.book {
+    padding: 5px;
+    margin: 20px;
+    background-color: #ffffff80;
+    box-shadow: #ffffff 0px 0px 10px;
+    border-radius: 10px;
+    border-bottom: #F4F4F4;
+    padding: 1svh;
+    transition: 500ms;
+    width: 30svh;
+    text-align: center;
+}
+
+.book p {
+    font-size: large;
+    text-align: end;
+    margin-top: -20px;
+}
+
+.book h5 {
+    font-size: x-large;
+    margin: 8px;
+}
+
+.book:hover{
+    background-color: #ffffff40;
+    box-shadow: #ffffff30 0px 0px 10px;
+    border-bottom: #F4F4F430;
+    transform: scale(1.1);
+
+}
+
+.book img {
+    width: 27svh;
+    height: 43svh;
+    border-radius: 5%;
+}
+
+
+
+.next2 {
+    width:105svw;
+    min-height: 105%;
+    margin-left: -2%;
+    background: url(https://m.media-amazon.com/images/I/71lniOVVc3L.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: center;
+    padding-top : 5svh;
+    justify-items: center;
+
+}
+
+.categories{
+    justify-items: center;
+    background-color: #484f6375;
+    padding: 0svh 8svh 10svh 8svh;
+    border-radius: 50px;
+
+}
+
+.categories h2{
+    color : #F4F4F4;
+    font-size: 45px;
+    text-shadow: #F4F4F4 0px 0px 10px;
+}
+
+.books2
+{
+    padding: 5px;
+    display: flex;
+    border-radius: 10px;
+    transition: 500ms;
+}
+
+.book2{
+    padding: 2px;
+    margin: 6px;
+    background-color: #ffffff80;
+    border-radius: 10px;
+    border-bottom: #F4F4F4;
+    padding: 1svh;
+    transition: 500ms;
+}
+
+.book2:hover{
+    background-color: #ffffff40;
+    box-shadow: #ffffff30 0px 0px 10px;
+    border-bottom: #F4F4F430;
+    transform: scale(1.1);
+    z-index: 50;
+
+}
+
+.book2 img {
+    width: 10svh;
+    height: 15svh;
+    border-radius: 5%;
+}
+
+.books2 h4{
+    font-size: 20px;
+    width: 150px;
+    align-content: center;
+    color: whitesmoke;
+
+}
+
+.book2 hr {
+  width: 100%;
+  height: 1px;
+  background-color: #F4F4F4;
+  margin-bottom: 10px;
+}
+
+.review {
+    background:url(https://t4.ftcdn.net/jpg/08/99/11/99/360_F_899119965_ZXCGB5xmBP2HGke415tF2gr67iXYlBRg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding : 9svh;
+    display: flex;
+}
+
+.reviewform {
+    width: 40%;
+    background-color: #35353580;
+    border-radius: 10px;
+    justify-items: center;
+}
+
+.reviewform h3{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.label{
+    display:none;
+}
+
+.box{
+    width:40svh;
+    height: 5svh;
+    padding: 10px ;
+    background-color: #00000034;
+    background-clip: padding-box;
+    margin: 2svh;
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 3px;
+    color: #ffffff;
+}
+
+#review {
+    height: 20svh;
+}
+
+input::placeholder{
+    color: rgba(245, 245, 245, 0.6);
+    align-items: top;
+}
+
+
+.subdiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.submit{
+    box-shadow: #ffffff1e 0px 0px 10px;
+    background-color: #666666ea;
+    font-size: 15px;
+    padding: 5px 40px;
+    transition: 400ms;
+    color: whitesmoke;
+    font-family: "Almendra", serif;
+   
+}
