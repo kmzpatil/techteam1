@@ -407,6 +407,7 @@ input::placeholder {
 
 .normal-1-review {
     max-width: 20svw;
+    min-width: 200px;
     margin : 1svw;
     padding: 10px;
     background-color: #3c414da1;
