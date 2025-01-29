@@ -210,6 +210,7 @@ body {
     border-bottom: #F4F4F4;
     padding: 1svh;
     transition: 500ms;
+    min-width: 250px;
     width: min(25svh,24svw);
     text-align: center;
 }
@@ -238,8 +239,8 @@ body {
 }
 
 .book img {
-    width: min(23svh,23svw);
-    height: min(35svh,35svw);
+    width: 80%;
+    height: auto;
     border-radius: 5%;
 }
 
@@ -396,6 +397,11 @@ input::placeholder {
     color: #000000;
 }
 
+.normal-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .part {
     display: flex;
@@ -407,8 +413,8 @@ input::placeholder {
 
 .normal-1-review {
     max-width: 20svw;
-    min-width: 200px;
     margin : 1svw;
+    min-width: 250px;
     padding: 10px;
     background-color: #3c414da1;
     border-radius: 10px;
