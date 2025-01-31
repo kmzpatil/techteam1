@@ -68,7 +68,7 @@ body {
 }
 
 .logo p {
-    font-size: (20px,2svw);
+    font-size: min(2svh,2svw);
     color: #F4F4F4;
 }
 
